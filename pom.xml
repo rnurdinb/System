@@ -1,0 +1,34 @@
+<project>
+<modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
+    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
+    <version>1</version>
+<build>
+  <plugins>
+    <plugin>
+   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
+   <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
+     <version>0.10.0</version>
+      <configuration>
+        <asciidocRootFolder>Darma-wirawan/penghisapilmu</asciidocRootFolder>
+        <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
+        <rootConfluenceUrl>https://alterra.atlassian.net/wiki/spaces/SYS/pages/73630126/Coba</rootConfluenceUrl>
+        <skipSslVerification>false</skipSslVerification>
+        <maxRequestsPerSecond>10</maxRequestsPerSecond>
+        <spaceKey>SYS</spaceKey>
+        <ancestorId>73630126</ancestorId>
+        <username>darma@alterra.id</username> <!-- or read from property -->
+        <password>4BMsZBcGGiSVP9yPD8dW2437</password> <!-- or read from property -->
+        <pageTitlePrefix xml:space="preserve">Doc :Civet: </pageTitlePrefix>
+        <pageTitleSuffix xml:space="preserve"> [${project.version}]</pageTitleSuffix>
+        <versionMessage>Version ${project.version}</versionMessage>
+        <attributes>
+            <version>${project.version}</version>
+            <someOtherKey>value</someOtherKey>
+        </attributes>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+</project>    
