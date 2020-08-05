@@ -13,13 +13,13 @@
       <configuration>
         <asciidocRootFolder>rnurdinb/System</asciidocRootFolder>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
-        <rootConfluenceUrl>https://alterra.atlassian.net/wiki/spaces/SYS/pages/73630126/Coba</rootConfluenceUrl>
+        <rootConfluenceUrl>https://alterra.atlassian.net/wiki/spaces/SYS/</rootConfluenceUrl>
         <skipSslVerification>false</skipSslVerification>
         <maxRequestsPerSecond>10</maxRequestsPerSecond>
         <spaceKey>SYS</spaceKey>
-        <ancestorId>73630126</ancestorId>
+        <ancestorId>73597364</ancestorId>
         <username>nurdin@alterra.id</username> <!-- or read from property -->
-        <password>Dinttenk123</password> <!-- or read from property -->
+        <password>vLF6hRgXIwSd2JuzjMnZB6E5</password> <!-- or read from property -->
         <pageTitlePrefix xml:space="preserve">Doc :Civet: </pageTitlePrefix>
         <pageTitleSuffix xml:space="preserve"> [${project.version}]</pageTitleSuffix>
         <versionMessage>Version ${project.version}</versionMessage>
