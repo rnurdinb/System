@@ -18,7 +18,7 @@
         <maxRequestsPerSecond>10</maxRequestsPerSecond>
         <spaceKey>SYS</spaceKey>
         <ancestorId>73630126</ancestorId>
-        <username>darma@alterra.id</username> <!-- or read from property -->
+        <username>nurdin@alterra.id</username> <!-- or read from property -->
         <password>Dinttenk123</password> <!-- or read from property -->
         <pageTitlePrefix xml:space="preserve">Doc :Civet: </pageTitlePrefix>
         <pageTitleSuffix xml:space="preserve"> [${project.version}]</pageTitleSuffix>
