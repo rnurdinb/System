@@ -11,7 +11,7 @@
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
      <version>0.10.0</version>
       <configuration>
-        <asciidocRootFolder>rnurdinb/System</asciidocRootFolder>
+        <asciidocRootFolder>rnurdinb/System/docs</asciidocRootFolder>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
         <rootConfluenceUrl>https://alterra.atlassian.net/wiki/spaces/SYS/</rootConfluenceUrl>
         <skipSslVerification>false</skipSslVerification>
