@@ -13,7 +13,7 @@
       <configuration>
         <asciidocRootFolder>rnurdinb/System/docs</asciidocRootFolder>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
-        <rootConfluenceUrl>https://alterra.atlassian.net/wiki/</rootConfluenceUrl>
+        <rootConfluenceUrl>https://alterra.atlassian.net/wiki/spaces/SYS/pages/73597364/Test/</rootConfluenceUrl>
         <skipSslVerification>false</skipSslVerification>
         <maxRequestsPerSecond>10</maxRequestsPerSecond>
         <spaceKey>SYS</spaceKey>
